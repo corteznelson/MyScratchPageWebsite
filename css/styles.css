@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige; /* Custom background color */
+    color: black; /* Font color */
+}
+
+header, footer {
+    background-color: #333; /* Custom background for header and footer */
+    color: white; /* Font color for header and footer */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header a, footer a {
+    color: #87CEEB; /* Font color for links in header and footer */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+#video-container {
+    margin: 20px 0;
+}
+
+#tableau-graph {
+    margin: 40px 0;
+}
+
+.tableau-link {
+    color: blue; 
+}
+
+#video-container iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
